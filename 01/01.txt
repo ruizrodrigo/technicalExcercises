@@ -1,0 +1,23 @@
+1. SubArray Products
+
+Contiguous SubArrays arre a group of an uninterrupted range of elements from an array as they occur. No Elements in the range can be skipped or reordered. Given an array of integers, numbers, and an integer k, determine the total number of subarrays of numbers that have a products that is less than or equal to k
+
+Example
+numbers = [2, 3, 4]
+
+the subarrays are [[2], [3], [4], [2, 3], [3, 4], [2, 3, 4]]. The product of a subarray is the product of all of its elements so the products for the list of subarraysare [2, 3, 4, 6, 12, 24]. if k = 6, 4 subarrays satisfy the condition, [2], [3], [4], [2, 3]
+
+Function Description
+Complete the function count in the editor below.
+
+count hast the following parameter(s):
+    int numbers[n]: an array of integers
+    k: an integer
+
+Returns
+    long int: the number of subarrays whose product is less than or equal to k
+
+Constraints
+    * 1 <= n <= 5x10^5
+    * 1 <= numbers[i] <= 100
+    * 1 <= k <= 10^6
